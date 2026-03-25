@@ -29,15 +29,12 @@
         - class="text-center" : Centre le texte horizontalement.
         - class="w-100" : Assure que le conteneur occupe toute la largeur disponible.
     -->
-    <v-footer>
-      <div class="px-4 text-center w-100">
-        2025 - Pokédex
-      </div>
-    </v-footer>
+    <app-footer />
   </v-app>
 </template>
 
 <script setup>
 // Importation du composant AppHeader pour l'en-tête de l'application
 import AppHeader from '@/components/AppHeader.vue'
+import AppFooter from '@/components/AppFooter.vue'
 </script>
